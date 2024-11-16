@@ -26,6 +26,7 @@ body {
     overflow-y: scroll;
 }
 
+/* Styling the scrollbar */
 ::-webkit-scrollbar {
     width: 15px;
 }

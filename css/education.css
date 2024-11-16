@@ -3,7 +3,7 @@
     background: var(--second-bg-color);
 }
 
- /* look here i think below 2 selectors are selecting same element */
+
 .heading {
     font-size: 8rem;
     text-align: center;

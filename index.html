@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio_website</title>
+    <!-- Global Stylesheet -->
     <link rel="stylesheet" href="./css/global.css" />
+    <!-- Section-Specific Stylesheets -->
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/sections.css" />
     <link rel="stylesheet" href="./css/home.css" />
@@ -16,10 +18,12 @@
     <link rel="stylesheet" href="./css/footer.css" />
     <link rel="stylesheet" href="./css/animation.css" />
     <link rel="stylesheet" href="./css/media_queries.css" />
+    <!-- icons  -->
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,12 +34,16 @@
   <body>
     <!-- Header Section -->
     <header class="header">
+      <!-- logo with highlighted first and last name -->
       <a href="#home" class="logo"
         >Saurav
         <span>Kumar</span>
       </a>
+
+      <!-- Hamburger menu Icon for mobile -->
       <i class="bx bx-menu" id="menu_icon"></i>
-      <!-- Navbar -->
+
+      <!-- Navigation bar -->
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#education">Education</a>
@@ -45,13 +53,16 @@
       </nav>
     </header>
 
-    <!-- Main -->
+    <!-- Main Content -->
     <main>
       <!--  home Section -->
       <section class="home fade_left" id="home">
         <div class="home_content">
+          <!-- Introducing Heading -->
           <h1>HI, It's <span>Saurav</span></h1>
+          <!-- Dynamic Text animation -->
           <h3 class="text_animation">I'm a <span></span></h3>
+          <!-- personal description -->
           <p>
             I am a passionate and determined individual committed to mastering
             Data Structures and Algorithms (DSA) and web development. My journey
@@ -59,6 +70,7 @@
             visually appealing, functional web applications.
           </p>
 
+          <!-- Social media links -->
           <div class="social_icons">
             <a
               href="https://www.linkedin.com/in/saurav-kumar-5690a1292/"
@@ -74,11 +86,14 @@
             <a href="https://x.com/SauravK06395033" target="_blank"><i class="bx bxl-twitter"></i></a>
           </div>
 
+          <!-- Actions buttons -->
           <div class="btn_group">
             <a href="#" class="btn">Hire</a>
             <a href="#contact" class="btn">Contact</a>
           </div>
         </div>
+
+        <!-- profile image -->
         <div class="home_img">
           <img src="./images/home.jpg" alt="" />
         </div>
@@ -88,7 +103,9 @@
       <section class="education fade_right" id="education">
         <h2 class="heading">Education</h2>
 
+        <!-- Timeline for Education History -->
         <div class="timeline_items">
+          <!-- High School Timeline Item  -->
           <div class="timeline_item">
             <div class="timeline_dot"></div>
             <div class="timeline_date">2015-16</div>
@@ -103,6 +120,7 @@
             </div>
           </div>
 
+          <!-- Senior Secondary Timeline Item  -->
           <div class="timeline_item">
             <div class="timeline_dot"></div>
             <div class="timeline_date">2016-18</div>
@@ -116,6 +134,8 @@
               </div>
             </div>
           </div>
+
+          <!-- Undergrad Timeline item -->
           <div class="timeline_item">
             <div class="timeline_dot"></div>
             <div class="timeline_date">2018-22</div>
@@ -130,6 +150,7 @@
             </div>
           </div>
 
+          <!-- Inrternship timeline item -->
           <div class="timeline_item">
             <div class="timeline_dot"></div>
             <div class="timeline_date">2022</div>
@@ -150,6 +171,7 @@
             </div>
           </div>
 
+          <!-- experience timeline item -->
           <div class="timeline_item">
             <div class="timeline_dot"></div>
             <div class="timeline_date">2023-24</div>
@@ -174,9 +196,11 @@
         </div>
       </section>
 
+      <!-- Projects Section -->
       <section class="project_section fade_left">
         <h2 class="heading">My ProJects</h2>
         <div class="project_container">
+          <!-- project card1 -->
             <div class="project_box">
                 <div class="project_img">
                     <img src="./images/zomato (2).webp" alt="">
@@ -187,6 +211,7 @@
                     <a href="https://github.com/Saurav-sde/CSS/tree/master/00_PROJECT/01_Zomato" class="btn2">Source Code</a>
                 </div>
             </div>
+            <!-- project card2 -->
             <div class="project_box">
                 <div class="project_img">
                     <img src="./images/zerodha.webp" alt="">
@@ -198,6 +223,7 @@
                 </div>
             </div>
 
+            <!-- project card 3 -->
             </div>
             <div class="project_box">
                 <div class="project_img">
@@ -218,6 +244,7 @@
         <h2 class="heading">Services</h2>
 
         <div class="services_container">
+          <!-- service card -1 -->
           <div class="service_box">
             <div class="service_info">
               <h3>UI Design</h3>
@@ -234,6 +261,7 @@
             </div>
           </div>
 
+          <!-- Service Card 2 -->
           <div class="service_box">
             <div class="service_info">
               <h3>Frontend Development</h3>
@@ -249,6 +277,7 @@
             </div>
           </div>
 
+          <!-- Service card 3 -->
           <div class="service_box">
             <div class="service_info">
               <h3>Backend Development</h3>
@@ -263,6 +292,7 @@
             </div>
           </div>
 
+          <!-- Service card 4 -->
           <div class="service_box">
             <div class="service_info">
               <h3>Testing</h3>
@@ -285,6 +315,7 @@
           <h2 class="heading">Testimonials</h2>
 
           <div class="wrapper">
+            <!-- Testimonial item 1 -->
             <div class="testimonial_item">
               <img src="./images/testi1.jpg" alt="" />
               <h2>Marilyn</h2>
@@ -305,6 +336,7 @@
               </p>
             </div>
 
+            <!-- Testimonial item 2 -->
             <div class="testimonial_item">
               <img src="./images/testi2.jpg" alt="" />
               <h2>Julia</h2>
@@ -324,6 +356,7 @@
               </p>
             </div>
 
+            <!-- Testimonial item 3 -->
             <div class="testimonial_item">
               <img src="./images/testilast.webp" alt="" />
               <h2>Rebecca</h2>
@@ -351,6 +384,7 @@
         <h2 class="heading">Contact <span>Me</span></h2>
 
         <form action="">
+          <!-- Contact form fields -->
           <div class="input_group">
             <div class="input_box">
               <input type="text" placeholder="Full Name" />
@@ -379,6 +413,7 @@
 
     <!-- Footer Section -->
     <footer class="footer">
+      <!-- social media links -->
       <div class="social">
         <a
           href="https://www.linkedin.com/in/saurav-kumar-5690a1292/"
