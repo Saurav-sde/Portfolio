@@ -48,3 +48,5 @@
     color: var(--main-color);
     display: none;
 }
+
+/* on clicking on hamburger icon nav items opens but it doesn't get close so i havent added that feature */
