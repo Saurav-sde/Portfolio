@@ -33,3 +33,8 @@ This is a personal portfolio website showcasing my skills, projects, and experie
 
 ## Author
 Saurav Kumar
+
+## Acknowledgements
+- Boxicons for the icons used throughout the site.
+- Google Fonts for the fonts used on the site.
+- GitHub Pages or any other hosting service for deployment.
