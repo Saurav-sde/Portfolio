@@ -63,47 +63,6 @@
 }
 
 
-.timeline_item {
-    animation: appearAnimationLeft linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-    transition: all 1s ease-in-out;
-}
-
-
-@keyframes appearAnimationLeft {
-  from {
-    opacity: 0;
-    scale: 0.5;
-    transform: translate(-100%);
-  }
-  to {
-    scale: 1;
-    transform: translate(0);
-  }
-}
-
-
-.project_box {
-    animation: appearAnimationRight linear;
-    animation-timeline: view();
-    animation-range: entry 0 cover 40%;
-    transition: all 0.3s ease-in-out;
-}
-
-
-@keyframes appearAnimationRight {
-    from {
-      opacity: 0;
-      scale: 0.5;
-      transform: translate(100%);
-    }
-    to {
-      scale: 1;
-      transform: translate(0);
-    }
-}
-
 /* Wrapper for fading element */
 .fade_left {
     opacity: 0; /* Initial opacity */
